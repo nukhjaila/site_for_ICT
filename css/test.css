@@ -1,0 +1,17 @@
+.body{
+	margin: 0px;
+}
+}
+.image-slider {
+	display: flex;
+	overflow-x: scroll;
+	scroll-snap-type: x mandatory; /* для привязки к изображениям */
+  }
+  
+  .image-slider img {
+	scroll-snap-align: start; /* для привязки к изображениям */
+	width: 100%;
+	height: auto;
+	margin-right: 2px; /* для разделения изображений между собой */
+  }
+  
